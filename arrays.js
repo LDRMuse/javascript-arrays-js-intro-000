@@ -10,9 +10,9 @@ function addElementToBeginningOfArray(array, element) {
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
   const array = [1]
-
+function destructivelyAddElementToBeginningOfArray(array, 'foo') {
   console.log([1], 'foo')
-}
+}}
 /*  describe('destructivelyAddElementToBeginningOfArray(array, element)', () => {
   it('adds an element to the beginning of an array', () => {
     expect(destructivelyAddElementToBeginningOfArray([1], 'foo')).to.eql(['foo', 1])
