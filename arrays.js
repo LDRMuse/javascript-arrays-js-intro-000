@@ -12,7 +12,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element)
   return array
 }
-
+var index = [1, 2, 3, 2]
 function accessElementInArray(array, index) {
   console.log(index[3]);
 }
