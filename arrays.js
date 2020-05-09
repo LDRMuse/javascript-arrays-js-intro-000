@@ -4,12 +4,13 @@ var chocolateBars = [ "snickers", "hundred grand", "kitkat", "skittles" ];
 const array = [1];
 let element = 'foo'
 function addElementToBeginningOfArray(array, element) {
-  console.log([1], 'foo')
+  return [element, ...array]
 }
 
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  console.log(array, 'foo')
+  array.unshift(element)
+  return array
 }
 /*  describe('destructivelyAddElementToBeginningOfArray(array, element)', () => {
   it('adds an element to the beginning of an array', () => {
