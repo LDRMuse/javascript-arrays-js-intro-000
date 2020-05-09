@@ -7,14 +7,22 @@ function addElementToBeginningOfArray(array, element) {
   return [element, ...array]
 }
 
+function addElementToEndOfArray(array, element) {
+  return [...array, element]
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element)
   return array
 }
-var index = [1, 2, 3, 2]
+
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
+  return array
+}
+
+
 function accessElementInArray(array, index) {
-  console.log(index[3]);
+  return array[index];
 }
 /*  describe('accessElementInArray(array, index)', () => {
     it('accesses the element in array at the given index', () => {
