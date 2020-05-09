@@ -9,7 +9,7 @@ function addElementToBeginningOfArray(array, element) {
 
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  const array = [1]
+  const array = [1];
   console.log([1], 'foo')
 }
 /*  describe('destructivelyAddElementToBeginningOfArray(array, element)', () => {
