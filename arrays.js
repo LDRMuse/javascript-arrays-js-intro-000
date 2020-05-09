@@ -14,7 +14,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 }
 
 function accessElementInArray(array, index) {
-  return index[3]
+  console.log(index[3]);
 }
 /*  describe('accessElementInArray(array, index)', () => {
     it('accesses the element in array at the given index', () => {
